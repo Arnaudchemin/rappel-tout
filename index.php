@@ -13,9 +13,9 @@
 
             <nav class="navbar">
                 <a href="test.html" class="active">Acceuil</a>
-                <a href="ajoutsMateriel.php">Ajouts M ateriels</a>
+                <a href="ajoutsMateriel.php">Ajouts Materiels</a>
                 <a href="ajoutDocument.php">Ajouts documents</a>
-                <a href="#" class="btn-box">Connexion</a>
+                <a href="#" class="btn-box">Conn</a>
             </nav>
         </header>
 
