@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    color: #ededed;
+    /*background-image: url(images/image.png);*/
+    background-image: url(images/wallpapersden.com_polygon-mountains_1920x1080.jpg);
+    /*background: #5c5c5c;*/
+    
+    background-repeat: no-repeat;
+    height: 1;
+}
+
+/* ----- Entete ----- */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:  20px 100px;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+span {
+    color: #192342;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #192342;
+}
+
+.navbar .btn-box {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #192342;
+    border-radius: 8px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.navbar .btn-box:hover{
+    background: #192342;
+    color: white;
+}
+
+/* ----- Pied de page ----- */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent  ;
+    padding:  50px 100px;
+}
+
+img{
+    position:absolute;
+    bottom:0;
+    width: 55px;
+    z-index: 1;
+    color: #fff;
+    margin: 0.5%;
+    left: 0.5%;
+}
