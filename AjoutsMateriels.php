@@ -24,14 +24,15 @@
             </nav>
         </header>
       
-          <center>
-              <form method="POST" action="resultatMateriel.php" class="t">
-                  <h1>Ajoutez votre matériel</h1><br>
-                  Référence matériel : <input type="text" name="refer_mate" placeholder="Référence matériel"/><br><br>
-                  Nom du matériel : <input type="text" name="nom_mate" placeholder="Nom du matériel"/><br><br>
-                  <input type="submit" name="valid_mater" value="Enregistrer"/>
-              </form>
-          </center>
+        <div class="test">
+            <form method="POST" action="resultatMateriel.php" class="t">
+                <h1>Ajoutez votre matériel</h1><br>
+                Référence matériel : <input type="text" name="refer_mate" placeholder="Référence matériel"/><br><br>
+                Nom du matériel : <input type="text" name="nom_mate" placeholder="Nom du matériel"/><br><br>
+                <input type="submit" name="valid_mater" value="Enregistrer"/>
+            </form>   
+        </div>
+              
       
     </body>
 </html>
