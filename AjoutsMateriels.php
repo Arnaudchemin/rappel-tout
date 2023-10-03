@@ -24,7 +24,7 @@
             </nav>
         </header>
       
-        <div class="test">
+        <div class="fahilme">
             <form method="POST" action="resultatMateriel.php" class="t">
                 <h1>Ajoutez votre matériel</h1><br>
                 Référence matériel : <input type="text" name="refer_mate" placeholder="Référence matériel"/><br><br>
