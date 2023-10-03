@@ -11,9 +11,7 @@ body {
     /*background-image: url(images/image.png);*/
     background-image: url(images/wallpapersden.com_polygon-mountains_1920x1080.jpg);
     /*background: #5c5c5c;*/
-    
     background-repeat: no-repeat;
-    height: 1;
 }
 
 /* ----- Entete ----- */
@@ -76,6 +74,17 @@ span {
     color: white;
 }
 
+form {
+   background: #ededed; 
+}
+
+
+
+
+
+
+
+
 /* ----- Pied de page ----- */
 .footer {
     position: absolute;
@@ -94,3 +103,11 @@ img{
     margin: 0.5%;
     left: 0.5%;
 }
+
+
+
+
+
+
+
+

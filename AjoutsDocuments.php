@@ -13,12 +13,13 @@
 
     <body>
         <header class="header">
-            <a href="index.html" class="logo">RappelMat</a>
+            <a href="index.php" class="logo">Rappel<span>Mat</span></a>
 
             <nav class="navbar">
                 <a href="index.php" class="active">Acceuil</a>
-                <a href="ajoutsMateriel.php">Ajouts Materiels</a>
-                <a href="ajoutDocument.php">Ajouts documents</a>
+                <a href="AjoutsMateriels.php">Ajouts Materiels</a>
+                <a href="AjoutsDocuments.php">Ajouts documents</a>
+                <a href="connecUtil.php" class="btn-box">Connexion</a>
             </nav>
         </header>
 

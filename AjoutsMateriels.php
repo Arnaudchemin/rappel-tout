@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Titre page -->
         <title>Ajouts Materiels | Rappel Materiel</title>
 
         <!-- Meta -->
@@ -13,25 +14,24 @@
 
     <body>
         <header class="header">
-            <a href="index.html" class="logo">RappelMat</a>
+            <a href="index.php" class="logo">Rappel<span>Mat</span></a>
 
             <nav class="navbar">
                 <a href="index.php" class="active">Acceuil</a>
-                <a href="ajoutsMateriel.php">Ajouts Materiels</a>
-                <a href="ajoutDocument.php">Ajouts documents</a>
+                <a href="AjoutsMateriels.php">Ajouts Materiels</a>
+                <a href="AjoutsDocuments.php">Ajouts documents</a>
+                <a href="connecUtil.php" class="btn-box">Connexion</a>
             </nav>
         </header>
       
-      <div class="t">
-      <center>
-        <form method="POST" action="resultatMateriel.php">
-          <h1>Ajoutez votre matériel</h1><br>
-          Référence matériel : <input type="text" name="refer_mate" placeholder="Référence matériel"/><br><br>
-          Nom du matériel : <input type="text" name="nom_mate" placeholder="Nom du matériel"/><br><br>
-          <input type="submit" name="valid_mater" value="Enregistrer"/>
-        </form>
-      </center>
-      </div>
+          <center>
+              <form method="POST" action="resultatMateriel.php" class="t">
+                  <h1>Ajoutez votre matériel</h1><br>
+                  Référence matériel : <input type="text" name="refer_mate" placeholder="Référence matériel"/><br><br>
+                  Nom du matériel : <input type="text" name="nom_mate" placeholder="Nom du matériel"/><br><br>
+                  <input type="submit" name="valid_mater" value="Enregistrer"/>
+              </form>
+          </center>
       
     </body>
 </html>
