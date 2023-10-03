@@ -31,11 +31,18 @@
             Votre mot de passe : <input type="text" name="nom_mate" placeholder="Nom du matériel"/><br><br>
             <input type="submit" name="valid_mater" value="Enregistrer"/>
             </form>
+            
+    <div style='display:flex'>
 
+        <div><img src="images/1200px-Logo_Nouvelle-Aquitaine_2019.svg.png" alt="logo"></div>
+
+        <div><img src="images/2560px-Ministère-Éducation-Nationale-Jeunesse.jpg.png" alt="logo2"></div>
+
+    </div>
 
         <footer class="footer">
             <!--<a href="https://www.nouvelle-aquitaine.fr/"><img src="images/1200px-Logo_Nouvelle-Aquitaine_2019.svg.png" alt="logo"></a>
-             <a href="https://www.nouvelle-aquitaine.fr/"><img src="images/2560px-Ministère-Éducation-Nationale-Jeunesse.svg.png" alt="logo2"></a> -->
+            <a href="https://www.nouvelle-aquitaine.fr/"><img src="images/2560px-Ministère-Éducation-Nationale-Jeunesse.jpg.png" alt="logo2"></a>-->
         </footer>
     </body>
 </html>

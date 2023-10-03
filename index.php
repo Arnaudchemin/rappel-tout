@@ -23,6 +23,11 @@
             </nav>
         </header>
 
+        <!--<div class="row">
+		  <div class="col">Lorem ipsum gravida vitae tristique a, porttitor sit amet enim.</div>
+		  <div class="col">Donec auctor sodales nunc quis tristique. Pellentesque et sollicitudin nisl, sed blandit quam. Quisque tortor enim, blandit id congue eget, sagittis quis ligula. Aenean gravida sagittis ultrices. Duis in erat nec ligula laoreet faucibus.</div>
+		</div>-->
+
         <footer class="footer">
             <a href="https://www.nouvelle-aquitaine.fr/"><img src="images/1200px-Logo_Nouvelle-Aquitaine_2019.svg.png" alt="logo"></a>
             <!-- <a href="https://www.nouvelle-aquitaine.fr/"><img src="images/2560px-Ministère-Éducation-Nationale-Jeunesse.svg.png" alt="logo2"></a> -->
