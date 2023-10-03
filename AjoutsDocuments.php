@@ -23,8 +23,7 @@
             </nav>
         </header>
 
-      <div class="ajtDoc">
-      <center>
+      <div class="fahilme">
         <form method="POST" action="resultatDocument.php">
             <h1>Ajoutez votre documents</h1>
             <input type="text" name="refer_doc" placeholder="Référence du document"/><br>
@@ -33,12 +32,11 @@
             <input type="text" name="ref_mat"/>
             <input type="submit" name="valider"/>
         </form>
-      </center>
       </div>
 
         <footer class="footer">
             <a href="https://www.nouvelle-aquitaine.fr/"><img src="images/1200px-Logo_Nouvelle-Aquitaine_2019.svg.png" alt="logo"></a>
-            <!-- <a href="https://www.nouvelle-aquitaine.fr/"><img src="images/2560px-Ministère-Éducation-Nationale-Jeunesse.svg.png" alt="logo2"></a> -->
+            <a href="https://www.education.gouv.fr/"><img src="images/2560px-Ministère-Éducation-Nationale-Jeunesse.svg.png" class="veste" alt="logo2"></a> 
         </footer>
 
     </body>

@@ -46,7 +46,7 @@
 
         <footer class="footer">
             <a href="https://www.nouvelle-aquitaine.fr/"><img src="images/1200px-Logo_Nouvelle-Aquitaine_2019.svg.png" alt="logo"></a>
-            <!-- <a href="https://www.nouvelle-aquitaine.fr/"><img src="images/2560px-Ministère-Éducation-Nationale-Jeunesse.svg.png" alt="logo2"></a> -->
+            <a href="https://www.education.gouv.fr/"><img src="images/2560px-Ministère-Éducation-Nationale-Jeunesse.svg.png" class="veste" alt="logo2"></a> 
         </footer>
               
       
