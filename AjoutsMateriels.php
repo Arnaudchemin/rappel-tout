@@ -37,6 +37,18 @@
             
         </div>
 
+	    <form method="POST" action="../Controler/retrievemat.php">
+    
+    <fieldset>
+    <legend>Rechercher un matériel par son identifiant:</legend>
+    </br>
+    <label for="valeur"> Identifiant: </label>
+    <input type="text" id="valeur" name="valeur" required>
+    </fieldset>
+    <input type="submit" value="recherche" /></br></br>
+
+</form>
+
         <!-- <div class="row">
 		  <div class="col">Lorem ipsum gravida vitae tristique a, porttitor sit amet enim.</div>
 		  <div class="col">Donec auctor sodales nunc quis tristique. Pellentesque et sollicitudin nisl, sed blandit quam. Quisque tortor enim, blandit id congue eget, sagittis quis ligula. Aenean gravida sagittis ultrices. Duis in erat nec ligula laoreet faucibus.</div>
