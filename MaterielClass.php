@@ -52,6 +52,15 @@ class materiel
             }
 		}
 
+	public function RetrieveMateriel($valeur) {
+        $stmt = $this->connex->prepare ("SELECT * FROM materiel WHERE ref_materiel = :valeur;");
+        $stmt->bindParam(':valeur', $valeur, PDO::PARAM_INT);
+        $stmt->execute();
+        $resultatmat = $stmt->fetch();
+        $this->ref_materiel = $resultatmat['ref_materiel'];
+        $this->nom_materiel = $resultatmat['nom_materiel'];
+    }
+
 		
 }
 ?>
